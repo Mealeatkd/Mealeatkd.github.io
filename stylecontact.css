@@ -1,0 +1,168 @@
+#Profile{
+    margin: 30px;
+    margin-left: 50px;
+    margin-bottom: 1px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-image: round;
+    object-fit: cover;
+}
+#name{
+    padding-left: 60px;
+    font-family: "Fira Sans";
+    font-size: 30px;
+    font-weight: bold;
+}
+#quote{
+    font-family: "Archivo Narrow";
+    font-size: 15px;
+    padding-left: 12px;
+}
+#Home-Menu{
+    font-size: 15px;
+    display: inline;
+    padding: 10px;
+    padding-left: 22px;
+    padding-right: 22px;
+    font-family: "Pontano Sans";
+    margin-left: 100px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+#Home-Menu:hover{
+    border: 2px solid;
+    border-color: black;
+}
+#Hobby-Menu{
+    font-size: 15px;
+    display: inline;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: "Pontano Sans";
+    margin-left: 100px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+#Hobby-Menu:hover{
+    border: 2px solid;
+    border-color: black;
+}
+#Travel-Menu{
+    font-size: 15px;
+    display: inline;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 15px;
+    font-family: "Pontano Sans";
+    margin-left: 100px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;    
+}
+#Travel-Menu:hover{
+    border: 2px solid;
+    border-color: black;
+}
+#Contact-Menu{
+    font-size: 15px;
+    display: inline;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: "Pontano Sans";
+    margin-left: 100px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    border: 2px solid;
+    border-color: black;
+}
+#Contact-Menu:hover{
+    border: 2px solid;
+    border-color: black;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 700px;
+}
+#grid-left{
+    width: 300px;
+    display: block;
+    background-color: rgb(189, 209, 226);
+}
+#grid-right{
+    background-image: url("space.png");
+    width: 1040px; 
+}
+#Contact-Content{
+    background-color: white;
+    opacity: 0.8;
+    margin: 40px;
+    margin-top: 55px;
+}
+#POC{
+    display: inline;
+    font-size: 60px;
+    font-family: "Fira Sans Extra Condensed";
+    border-bottom: 5px solid;
+    border-color: lightblue;
+    margin-left: 300px;
+}
+#instagram-img{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    margin-left: 250px;
+}
+#facebook-img{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+.gmail-img{
+    display: inline;
+    max-width: 250px;
+    margin: 20px;
+    margin-left: 350px;
+}
+.container {
+    position: relative;
+    width: 50%;
+}
+.overlay {
+    position: absolute;
+    margin-left: 350px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+.container:hover .overlay {
+    width: 250px;
+}
+.text {
+    color: black;
+    font-size: 19px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    font-weight: bold;
+    font-family: "Fira Sans Extra Condensed";
+}
+  
